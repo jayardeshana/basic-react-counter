@@ -1,8 +1,16 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Counter from "./component/Counter";
+import ListOfItems from "./component/ListOfItems";
 
 function App() {
-  return <div className="App">hello</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/items" element={<ListOfItems />} />
+        <Route path="/" element={<Counter />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

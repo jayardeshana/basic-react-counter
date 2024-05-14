@@ -1,0 +1,28 @@
+.counter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.btn-style {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  outline: none;
+}
+
+.btn-style:hover {
+  background-color: #0056b3;
+}
+
+.btn-style:active {
+  background-color: #004080;
+}
